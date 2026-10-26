@@ -1,0 +1,601 @@
+header{
+    position:relative;
+    border-bottom: 3px solid gold;
+    padding-bottom: -5px;
+
+    margin-bottom: 0;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+ margin: 0;
+padding: 0;
+}
+
+header h1{
+    margin-top: 20px;
+}
+
+.Castelo{
+    width: 99%;
+    max-height: 200px;
+    object-fit: cover;
+    border: 10px solid; color: gold;
+}
+
+footer{
+    border-top: 3px solid gold;
+    padding-top: -5px;
+    margin-top: 0;
+}
+.titulo{
+    position: absolute;
+    font-family: "Cinzel", serif;
+    font-size: 4rem;
+
+    top: 30%;
+    left: 49%;
+        white-space: nowrap;
+
+
+    transform: translate(-50%, -50%);
+
+    color: rgb(240, 156, 0);
+    font-size: 3rem;
+    text-shadow:
+        2px 2px 0 #000,
+        4px 4px 10px rgba(0,0,0,0.8);
+}
+main{
+     background-image: url("Fundo main.png");
+    background-size: 100% auto;
+    background-position: center top;
+    background-repeat: repeat-y;
+}
+.h1titulomain{
+    font-family: "Cinzel", serif;
+    font-size: 4rem;
+    color: rgb(240, 156, 0);
+    font-size: 3rem;
+    text-shadow:
+        2px 2px 0 #000,
+        4px 4px 10px rgba(0,0,0,0.8);
+    position: relative;
+    left: 555px;
+    margin-top: 20PX;
+    margin-bottom: 0;}
+
+.carrosel{
+  width:750px;
+  position:relative;
+  left: 360px;
+  top: 30PX;
+  
+
+overflow:hidden;
+
+}
+
+.slides{
+    display:flex;
+    overflow-x: auto;
+    scroll-snap-type:x mandatory;
+}
+
+.slides img{
+    max-width:400px;
+    scroll-snap-align:center;
+    width:400px;
+    flex-shrink:0;
+}
+.Kalastoh2{
+        text-align:center;
+
+    top: 970px;
+    left: 620px;
+    font-family: "Cinzel", serif;
+    font-size: 4rem;
+    color: rgb(240, 156, 0);
+    font-size: 3rem;
+    text-shadow:
+        2px 2px 0 #000,
+        2px 2px 10px rgba(0,0,0,0.8);
+}
+.Kalastoh3{
+     background: transparent !important;
+    
+    font-family: "Cinzel", serif;
+        font-size: 30px !important;
+         text-align:center;
+
+    font-size: 4rem;
+    color: rgb(240, 156, 0);
+    font-size: 3rem;
+    text-shadow:
+        2px 2px 0 #000,
+        4px 4px 10px rgba(0,0,0,0.8);
+
+
+}
+.carrosel2{
+width:750px;
+  position:relative;
+  left: 360px;
+  
+
+overflow:hidden;
+
+
+}
+.slides2{
+    display:flex;
+    overflow-x: auto;
+    scroll-snap-type:x mandatory;
+}
+
+.slides2 img{
+    max-width:400px;
+    scroll-snap-align:center;
+    width:400px;
+    flex-shrink:0;
+}
+.Karolinah2{
+  text-align:center;
+
+    top: 970px;
+    left: 620px;
+    font-family: "Cinzel", serif;
+    font-size: 4rem;
+    color: rgb(240, 156, 0);
+    font-size: 3rem;
+    text-shadow:
+        2px 2px 0 #000,
+        2px 2px 10px rgba(0,0,0,0.8);
+}
+.Karolinah3{
+
+    background: transparent !important;
+    
+    font-family: "Cinzel", serif;
+        font-size: 30px !important;
+         text-align:center;
+
+    font-size: 4rem;
+    color: rgb(240, 156, 0);
+    font-size: 3rem;
+    text-shadow:
+        2px 2px 0 #000,
+        4px 4px 10px rgba(0,0,0,0.8);
+}
+.carrosel3
+{
+   width:750px;
+  position:relative;
+  left: 360px;
+  
+
+overflow:hidden;
+
+
+}
+.slides3{
+display:flex;
+    overflow-x: auto;
+    scroll-snap-type:x mandatory;
+
+}
+.slides3 img{
+
+    max-width:400px;
+    scroll-snap-align:center;
+    width:400px;
+    flex-shrink:0;
+}
+.atreush2{
+ text-align:center;
+
+    top: 970px;
+    left: 620px;
+    font-family: "Cinzel", serif;
+    font-size: 4rem;
+    color: rgb(240, 156, 0);
+    font-size: 3rem;
+    text-shadow:
+        2px 2px 0 #000,
+        2px 2px 10px rgba(0,0,0,0.8);
+}
+.atreush3{
+background: transparent !important;
+    
+    font-family: "Cinzel", serif;
+        font-size: 30px !important;
+         text-align:center;
+
+    font-size: 4rem;
+    color: rgb(240, 156, 0);
+    font-size: 3rem;
+    text-shadow:
+        2px 2px 0 #000,
+        4px 4px 10px rgba(0,0,0,0.8);
+}
+.carrosel4{
+width:750px;
+  position:relative;
+  left: 360px;
+  
+
+overflow:hidden;
+
+}
+.slides4{
+display:flex;
+    overflow-x: auto;
+    scroll-snap-type:x mandatory;}
+.slides4 img{
+    max-width:400px;
+    scroll-snap-align:center;
+    width:400px;
+    flex-shrink:0;}
+.carrosel5{
+width:750px;
+  position:relative;
+  left: 360px;
+  
+
+overflow:hidden;
+}
+.slides5{
+    display:flex;
+    overflow-x: auto;
+    scroll-snap-type:x mandatory;
+}
+.slides5 img{
+    max-width:400px;
+    scroll-snap-align:center;
+    width:400px;
+    flex-shrink:0;
+}
+.carrosel6{
+width:750px;
+  position:relative;
+  left: 360px;
+  
+
+overflow:hidden;
+
+}
+.slides6{
+ display:flex;
+    overflow-x: auto;
+    scroll-snap-type:x mandatory;
+
+}
+.slides6 img{
+ max-width:400px;
+    scroll-snap-align:center;
+    width:400px;
+    flex-shrink:0;
+
+}
+.carrosel7{
+width:750px;
+  position:relative;
+  left: 360px;
+  
+
+overflow:hidden;
+
+}
+.slides7{
+display:flex;
+    overflow-x: auto;
+    scroll-snap-type:x mandatory;
+
+}
+.slides7 img{
+
+     max-width:400px;
+    scroll-snap-align:center;
+    width:400px;
+    flex-shrink:0;
+
+}
+.rodape-lore{
+    text-align: center;
+    color: rgb(240, 156, 0);
+    font-family: "Cinzel", serif;
+    padding: 30px;
+    text-shadow:
+        2px 2px 0 #000,
+        4px 4px 10px rgba(0,0,0,0.8);
+}
+
+.rodape-lore h3{
+    margin: 15px 0;
+}
+
+nav{
+    text-align:center;
+    margin:20px;
+}
+
+nav a{
+    color:gold;
+    text-decoration:none;
+    font-size:1.5rem;
+    margin:0 20px;
+    font-family:"Cinzel", serif;
+}
+
+nav a:hover{
+    color:white;
+}
+.cronicas{
+   width: 99%;
+      max-height: 650px;
+    object-fit: cover;
+    border: 10px solid; color: gold;}
+.cronicastitulo{
+
+     position: absolute;
+    font-family: "Cinzel", serif;
+    font-size: 4rem;
+    border: solid gold;
+    background-color: black;
+
+    top: 2%;
+    left: 49%;
+        white-space: nowrap;
+
+
+    transform: translate(-50%, -50%);
+
+    color: rgb(240, 156, 0);
+    font-size: 3rem;
+    text-shadow:
+        2px 2px 0 #000,
+        4px 4px 10px rgba(0,0,0,0.8);
+}
+.cronicaquadrado{
+ width:200px;
+    height:150px;
+    top: 15px;
+    left: 10px;
+    border:2px solid gold;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    position:relative;
+      transition:0.3s;
+    
+}
+.cronicaquadrado img{
+        width:100%;
+    height:100%;
+    object-fit:cover;
+}
+.cronicaquadrado h2{
+
+     position:absolute;
+
+    bottom:10px;
+
+    width:100%;
+
+    text-align:center;
+
+    color:gold;
+
+    text-shadow:
+        2px 2px 0 #000,
+        4px 4px 10px rgba(0,0,0,0.8);
+
+}
+.cronicaquadrado:hover{
+transform: scale(1.05);
+}
+#painelcronica{
+
+    width:80%;
+    margin:30px auto;
+
+    border:2px solid gold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
+
+    padding:20px;
+
+    color:white;
+
+    background:rgba(0,0,0,0.5);
+}
+.gradecronicas{
+      display:flex;
+    gap:60px;
+    flex-wrap:wrap;
+    }
+.sessao1{
+    
+    width: auto;
+    height: auto;
+    border: 2px solid gold;
+    margin: 30px auto;
+    display: flex;
+}
+.sessao1 img{
+    width: 350px;
+    height: auto;
+    object-fit: cover;
+}    
+#Zugagatitulo{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+color: darkred;
+background-color: black;
+ position: absolute;
+
+    top: 82%;
+    left: 50%;
+
+    transform: translate(-50%, -50%);
+
+    width: 300px;
+
+}
+#Zugaga{
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+color: darkred;
+background-color: black;
+
+    position: absolute;
+
+    top: 88%;
+    left: 50%;
+
+    transform: translate(-50%, -50%);
+
+    width: 300px;
+}
+.caoscarrosel{
+height: 50px;
+display: flex;
+justify-content: center;
+align-items:center;
+margin-top: 10px;
+}
+#Caos{
+
+    position: absolute;
+
+    top: 50%;
+    left: 50%;
+
+    transform: translate(-50%, -50%);
+
+    width: 300px;
+}
+.seta{
+    position: absolute;
+  width:120px;
+    height:60px;
+    top: 95%;
+    left: 37%;
+    border: #000;
+
+
+    font-size:30px;
+
+    cursor:pointer;
+}
+.castelonegro{
+ position: fixed;            /* Fixa a imagem na tela */
+  top: 0;
+  left: 0;
+  width: 100vw;               /* Ocupa 100% da largura da tela */
+  height: 100vh;              /* Ocupa 100% da altura da tela */
+  object-fit: cover;          /* Faz a tag <img> se comportar como 'background-size: cover' */
+  object-position: center;    /* Centraliza a imagem */
+  z-index: -1;           
+}
+.caosmembro{
+    width:500px;
+
+    text-align:center;
+}
+.caosmembro img{
+
+    width:350px;
+    height:350px;
+
+    object-fit:cover;
+
+    cursor:pointer;
+
+    border-radius:20px;
+
+    transition:0.4s;
+}
+.caosmembro img:hover{
+    transform:scale(1.03);
+}
+.seta2{
+    position: absolute;
+  width:120px;
+    height:60px;
+    top: 95%;
+    left: 55%;
+    border: #000;
+
+
+    font-size:30px;
+
+    cursor:pointer;
+}
+.Heldris{
+   position: absolute;
+   top: 60%;
+   left: 34%;
+   width: 500px;
+   border: 10px solid gold;
+
+}
+.textha{
+    position: absolute;
+top: 51%;
+   left: 42%;
+   border: solid 10px gold;
+   background-color: black;
+   font-family: 'Times New Roman', Times, serif;
+}
+.texthha{
+    top: 125%;
+    position: absolute;
+   box-sizing: border-box;
+  margin: 48px auto;
+  padding: clamp(22px, 4vw, 52px);
+  color: #e8dfcf;
+  background: rgba(12, 10, 10, 0.88);
+  border: 1px solid rgba(201, 164, 78, 0.65);
+  border-radius: 8px;
+  box-shadow: 0 12px 40px rgba(0, 0, 0, 0.38);
+  font-family: Georgia, "Times New Roman", serif;
+  line-height: 1.85;
+}
+.textma{
+  position: absolute;
+top: 705%;
+   left: 44%;
+   border: solid 10px gold;
+   background-color: black;
+   font-family: 'Times New Roman', Times, serif;
+
+}
+.Miguel{
+position: absolute;
+   top: 712%;
+   left: 27%;
+   width: 700px;
+   border: 10px solid gold;
+}
+.textmma{
+top: 770%;
+    position: absolute;
+   box-sizing: border-box;
+  margin: 48px auto;
+  padding: clamp(22px, 4vw, 52px);
+  color: #e8dfcf;
+  background: rgba(12, 10, 10, 0.88);
+  border: 1px solid rgba(201, 164, 78, 0.65);
+  border-radius: 8px;
+  box-shadow: 0 12px 40px rgba(0, 0, 0, 0.38);
+  font-family: Georgia, "Times New Roman", serif;
+  line-height: 1.85;
+}
+.audioh{
+position: absolute;
+top: 1000px;}
+#audiom{
+position: absolute;
+top: 6100px;
+
+}
